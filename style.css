@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300&display=swap');
-body{
-    font-family:'Montserrat', sans-serif;
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
+
 :root {
     --dark-green: #0c9770;
-    --light-green:#34D399;
+    --light-green: #5ae6b2;
 }
 
 .navigation {
@@ -13,111 +16,187 @@ body{
     margin: 0px 0px 40px 0px;
     height: 90px;
     background-color: var(--dark-green);
-    border-bottom-left-radius:20px;
-    
+    border-bottom-left-radius: 20px;
+
 }
-.navigation-list{
+
+.navigation-list {
     text-align: right;
 }
-.navigation div{
-    font-size:30px;
+
+.navigation div {
+    font-size: 30px;
     font-weight: bold;
-    padding-top:5px;
-    padding-left:5px;
+    padding-top: 5px;
+    padding-left: 10px;
 }
-    
+
 
 .nav-list {
     display: inline;
     list-style-type: none;
-    padding:0px 30px;
-    
-    
+    padding: 0px 30px;
+
+
 }
-.nav-link{
-    
-    color:white;
-    font-size:20px;
-    text-decoration:none;
+
+.nav-link {
+
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
 }
-.Image-heading #image{
+
+.Image-heading #image {
     max-width: 80%;
-    width:500px;
-    display:block;
-    margin:auto;
+    width: 500px;
+    display: block;
+    margin: auto;
 }
-.Image-heading h1{
-    text-align:center;
-    color:rgb(80, 79, 79);
+
+.Image-heading h1 {
+    text-align: center;
+    color: rgb(80, 79, 79);
 }
-.Image-heading .web{
+
+.Image-heading .web {
     color: var(--dark-green);
-    
+
 }
-.section1{
-    padding-top:35px;
-    padding-bottom:35px;
+
+.section1 {
+    padding-top: 35px;
+    padding-bottom: 35px;
     text-align: center;
     background-color: #ECFDF5;
-    
-}
-.section1 .tech-container{
-    max-width:600px;
-    margin:auto;
+
 }
 
-.section2{
-    padding-top:30px;
-    padding-bottom:30px;
-    text-align:center;
+.section1 .tech-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.section2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
     background-color: #ECFDF5;
 }
-.section2 .projects-container{
-    max-width:600px;
-    margin:auto;
+
+.section2 .projects-container {
+    max-width: 600px;
+    margin: auto;
 }
-.section2 .projects{
+
+.section2 .projects {
     text-decoration: none;
-    color:white;
-    padding:10px;
+    color: white;
+    padding: 10px;
     background-color: var(--dark-green);
-    border-radius: 7px;;
+    border-radius: 7px;
+    ;
 
 }
-.section3{
-    padding-top:30px;
-    padding-bottom:60px;
-    text-align:center;
+
+.section3 {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    text-align: center;
     background-color: #ECFDF5;
 }
-.section3 .blogs-container{
-    max-width:600px;
-    margin:auto;
+
+.section3 .blogs-container {
+    max-width: 600px;
+    margin: auto;
 }
-.section3 .blogs{
+
+.section3 .blogs {
     text-decoration: none;
-    color:white;
-    padding:10px;
+    color: white;
+    padding: 10px;
     background-color: var(--dark-green);
-    border-radius: 7px;;
+    border-radius: 7px;
+    ;
 
 }
-.foot{ 
-    padding:20px;
-    color:white;
+
+.foot {
+    padding: 20px;
+    color: white;
     background-color: var(--light-green);
     text-align: center;
 }
-.social-media{
+
+.social-media {
     list-style-type: none;
     padding-inline-start: 0px;
 }
- .foot-links{
+
+.foot-links {
     display: inline;
-    padding:5px;  
+    padding: 5px;
 
 }
-.media-link{
+
+.media-link {
     text-decoration: none;
-    color:white;
+    color: white;
+}
+
+.blog-page {
+    display: block;
+    text-align: center;
+
+
+}
+
+.blog-page div {}
+
+.navigation-blog .link1 {
+    font-weight: bold;
+}
+
+hr {
+    color: var(--dark-green);
+}
+
+.left {
+    text-align: left;
+}
+
+.link-icons {
+    height: 30px;
+    padding: 14px;
+}
+
+.section2 .blogs2,
+.section3 .blogs2,
+.section2 .index-hover:hover,
+.section3 .index-hover:hover {
+    color: var(--dark-green);
+    background-color: white;
+    border-radius: 0.5rem;
+    border: 1px solid var(--dark-green);
+}
+
+.section3 .blogs2:hover,
+.section2 .blogs2:hover,
+.section3 .blogs1:hover,
+.section2 .blogs1:hover {
+    background-color: var(--light-green);
+    color: var(--dark-green);
+    border: 1px solid var(--dark-green);
+
+}
+
+.social-media .hover-media:hover {
+    font-weight: bold;
+    color: var(--dark-green);
+    background-color: white;
+
+}
+
+.link-icons:hover {
+    background-color: var(--dark-green);
 }
