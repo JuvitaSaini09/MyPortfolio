@@ -151,7 +151,7 @@ body {
 
 }
 
-.blog-page div {}
+
 
 .navigation-blog .link1 {
     font-weight: bold;
@@ -199,4 +199,7 @@ hr {
 
 .link-icons:hover {
     background-color: var(--dark-green);
+}
+.heading{
+    font-size: 24px;
 }
