@@ -25,7 +25,7 @@ body {
 }
 
 .navigation div {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     padding-top: 5px;
     padding-left: 10px;
@@ -200,6 +200,7 @@ hr {
 .link-icons:hover {
     background-color: var(--dark-green);
 }
-.heading{
+
+.heading {
     font-size: 24px;
 }
